@@ -23,12 +23,12 @@ h1 {
   margin-bottom: 5;
 }
 
-ul .date-today {
+ul #date-today {
   margin-top: 5px;
 }
 
-ul .weather-today {
-  margin-bottom: 5px;
+ul #weather-today {
+  margin-bottom: 15px;
 }
 
 ul {
@@ -42,12 +42,14 @@ li {
   font-size: 16px;
   margin: 0;
   padding: 0;
+  text-transform: capitalize;
 }
 
 strong {
   color: #0c9239;
-  font-size: 25px;
+  font-size: 30px;
   line-height: 2px;
+  margin-top: 10px;
 }
 
 .degrees {
