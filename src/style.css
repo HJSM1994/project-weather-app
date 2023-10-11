@@ -1,4 +1,34 @@
+body {
+  font-family: ;
+}
+
+.weather-app {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #0c9239;
+  border-radius: 5px;
+}
+
 h1 {
-  color: blueviolet;
+  color: #0c9239;
   font-size: 30px;
+  font-weight: 100;
+  font-family: "Francois One", sans-serif;
+  display: block;
+  line-height: 28px;
+  margin-bottom: 5;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  color: black;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
 }
