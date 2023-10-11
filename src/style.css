@@ -2,11 +2,14 @@ body {
   font-family: ;
 }
 
-.weather-app {
+.weather-app-wrap {
   max-width: 600px;
   margin: 30px auto;
+}
+
+.weather-app {
   padding: 20px;
-  border: 1px solid #0c9239;
+  border: 3px solid #0c9239;
   border-radius: 5px;
 }
 
@@ -20,6 +23,14 @@ h1 {
   margin-bottom: 5;
 }
 
+ul .date-today {
+  margin-top: 5px;
+}
+
+ul .weather-today {
+  margin-bottom: 5px;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -31,4 +42,16 @@ li {
   font-size: 16px;
   margin: 0;
   padding: 0;
+}
+
+strong {
+  color: #0c9239;
+  font-size: 25px;
+  line-height: 2px;
+}
+
+.degrees {
+  color: #0471d7;
+  position: relative;
+  font-size: 16px;
 }

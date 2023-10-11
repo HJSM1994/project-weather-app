@@ -22,45 +22,46 @@
 
 <body>
     <div class="container">
-        <div class="weather-app">
-            <h1> <i class="fa-solid fa-location-pin fa-lg" style="color: #0471d7;"></i> Manchester, UK </h1>
-            <ul>
-                <li>
-                    Wednesday 10:00
-                </li>
-                <li>
-                    Rainy
-                </li>
-            </ul>
-            <div class="row">
-                <div class="col-6">
-                    <i class="fa-solid fa-temperature-low fa-beat" style="color: #0c9239;"></i>
-                    10℃ | ℉
-                </div>
-                <div class="col-6">
-                    <ul>
-                        <li>
-                            Precipitation: 0%
-                        </li>
-                        <li>
-                            Humidity: 40%
-                        </li>
-                        <li>
-                            Wind speed: 5mph
-                        </li>
-                    </ul>
-                    <button type="button" class="btn btn-success">Current location</button>
-                    <br />
-                    <small>
-                        <a href="#"
-                            onclick="window.open('https://github.com/HJSM1994/project-weather-app.git', '_blank')">Open
-                            source code by Hannah
-                            Jane Meehan</a>
-                    </small>
+        <div class="weather-app-wrap">
+            <div class="weather-app">
+                <h1> <i class="fa-solid fa-location-pin fa-lg" style="color: #0471d7;"></i> Manchester, UK </h1>
+                <ul>
+                    <li class="date-today">
+                        Wednesday 10:00
+                    </li>
+                    <li class="weather-today">
+                        Rainy
+                    </li>
+                </ul>
+                <div class="row">
+                    <div class="col-6">
+
+                        <strong>10</strong> <i class="fa-solid fa-temperature-low fa-beat"
+                            style="color: #0c9239;"></i><small class="degrees"> C | °F</small>
+                    </div>
+                    <div class="col-6">
+                        <ul>
+                            <li>
+                                Precipitation: 0%
+                            </li>
+                            <li>
+                                Humidity: 40%
+                            </li>
+                            <li>
+                                Wind speed: 5mph
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-success">Current location</button>
+                        <br />
+                    </div>
                 </div>
             </div>
+            <small>
+                <a href="#" onclick="window.open('https://github.com/HJSM1994/project-weather-app.git', '_blank')">Open
+                    source code by Hannah
+                    Jane Meehan</a>
+            </small>
         </div>
-
     </div>
 
 
