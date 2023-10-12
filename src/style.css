@@ -61,8 +61,6 @@ strong {
   font-size: 16px;
 }
 
-.icon {
-  margin: 0 auto;
-  display: block;
+#icon {
   max-width: 200px;
 }
