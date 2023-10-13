@@ -1,5 +1,4 @@
 body {
-  font-family: ;
 }
 
 .weather-app-wrap {
@@ -15,25 +14,34 @@ body {
 
 h1 {
   color: #0c9239;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 100;
   font-family: "Francois One", sans-serif;
   display: block;
   line-height: 28px;
-  margin-bottom: 5;
+  margin-bottom: 5px;
+  margin-left: 25px;
 }
 
 ul #date-today {
-  margin-top: 5px;
+  margin-top: 15px;
+  margin-left: 25px;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
 }
 
-ul #weather-today {
-  margin-bottom: 15px;
+#weather-today {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 25px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
 }
 
 ul {
   margin: 0;
   padding: 0;
+  font-family: "Courier New", Courier, monospace;
 }
 
 li {
@@ -48,7 +56,7 @@ li::first-letter {
   text-transform: capitalize;
 }
 
-strong {
+#currentTemp {
   color: #0c9239;
   font-size: 30px;
   line-height: 2px;
@@ -77,6 +85,25 @@ strong {
   max-width: 200px;
 }
 
-.degree-links {
+.degree-links a {
   text-decoration: none;
+}
+
+.weather-forecast {
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  color: grey;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
 }

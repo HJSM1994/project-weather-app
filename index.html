@@ -17,6 +17,10 @@
         <link rel="stylesheet" href="src/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=M+PLUS+1p:wght@100;400&display=swap"
+            rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     </head>
@@ -32,12 +36,13 @@
                                 autocomplete="off" />
                         </div>
                         <div class="col-2">
-                            <input type="submit" value="Search" class="btn btn-primary" />
+                            <input type="submit" value="Search" class="btn btn-primary w-100" />
                         </div>
+
                     </div>
                 </form>
-                <h1 id="city"> <i class="fa-solid fa-location-pin fa-lg" style="color: #0471d7;"></i> Manchester, UK
-                </h1>
+                <i class="fa-solid fa-location-pin fa-2xl" style="color: #0471d7;"></i>
+                <h1 id="city"> Manchester, UK</h1>
                 <ul>
                     <li id="date-today"></li>
                     <li id="weather-today"> </li>
@@ -53,23 +58,37 @@
                     <div class="col-6">
                         <ul>
                             <li>
-                                Humidity: <span id="humidity"></span>%
+                                <strong>Humidity</strong>: <span id="humidity"></span>% <i class="fa-solid fa-droplet"
+                                    style="color: #0471d7;"></i>
                             </li>
                             <li>
-                                Wind speed: <spad id="windSpeed"></spad>mph
+                                <strong> Wind speed</strong>: <spad id="windSpeed"></spad>mph <i
+                                    class="fa-solid fa-wind" style="color: #0471d7;"></i>
                             </li>
                         </ul>
-
+                        <br />
                     </div>
                 </div>
+                <div class="weather-forecast">
+                    <div class="row">
+                        <div class="col-2">
+                            <div class="weather-forecast-date">Monday</div>
+                            <img src="https://openweathermap.org/img/wn/01d@2x.png" width="42px" /> <br />
+                            <div class="weather-forecast-temperatures">
+                                <span class="weather-forecast-temperature-max">18°</span>
+                                <span class="weather-forecast-temperature-min">12°</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <small>
+                    <a href="#"
+                        onclick="window.open('https://github.com/HJSM1994/project-weather-app.git', '_blank')">Open
+                        source code by Hannah
+                        Jane Meehan</a>
+                </small>
             </div>
-            <small>
-                <a href="#" onclick="window.open('https://github.com/HJSM1994/project-weather-app.git', '_blank')">Open
-                    source code by Hannah
-                    Jane Meehan</a>
-            </small>
         </div>
-    </div>
 
 
     </div>
