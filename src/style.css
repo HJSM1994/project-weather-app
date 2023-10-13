@@ -55,12 +55,28 @@ strong {
   margin-top: 10px;
 }
 
-.degrees {
-  color: #0471d7;
-  position: relative;
-  font-size: 16px;
+.active {
+  color: #0c9239;
+  cursor: default;
+  text-decoration: none;
+}
+
+.degree-links {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.active,
+.active:hover,
+.degree-links,
+#fahrenheit-link {
+  text-decoration: none;
 }
 
 #icon {
   max-width: 200px;
+}
+
+.degree-links {
+  text-decoration: none;
 }
