@@ -18,6 +18,10 @@ body {
   border-radius: 5px;
 }
 
+.search-button {
+  margin-left: -20px;
+}
+
 h1 {
   color: #0471d7;
   font-size: 40px;
